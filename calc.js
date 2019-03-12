@@ -53,7 +53,7 @@ function oper(z){
     }   
 }
 function resultados(n1){
-    console.log(n1);
+    
     var table =document.getElementById("tres");
     var row=table.insertRow(2);
     var cell1=row.insertCell(0);
