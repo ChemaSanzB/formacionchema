@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<HTML>
+   <HEAD>
+       <link href="calc.css" rel="stylesheet" type="text/css">
+       <meta charset="UTF-8">
+      <TITLE>Calculadora</TITLE>
+   </HEAD>
+   <BODY>
+       <TABLE id="t1">
+            <tr>
+                <th colspan="2">
+                    <input id="res" value="0." readonly/>
+                </th>
+           </tr>
+           <tr>
+                <td>
+                    <table id="tn">
+                        <tr>
+                            <td><button class="bn" onclick="anadir('1')">1</button></td>
+                            <td><button class="bn" onclick="anadir('2')">2</button></td>
+                            <td><button class="bn" onclick="anadir('3')">3</button></td>                
+                       </tr>
+                       <tr>
+                            <td><button class="bn" onclick="anadir('4')">4</button></td>
+                            <td><button class="bn" onclick="anadir('5')">5</button></td>
+                            <td><button class="bn" onclick="anadir('6')">6</button></td>               
+                       </tr>
+                       <tr>
+                            <td><button class="bn" onclick="anadir('7')">7</button></td>
+                            <td><button class="bn" onclick="anadir('8')">8</button></td>
+                            <td><button class="bn" onclick="anadir('9')">9</button></td>          
+                       </tr>
+                       <tr>
+                            
+                            <td><button class="bn" onclick="anadir('0')">0</button></td>
+                            <td colspan="2"><button class="bo" onclick="anadir('.')">.</button></td>               
+                       </tr>   
+                    </table>
+               </td>
+               <td>
+                    <TABLE id="to">
+                       <tr>
+                            <td><button class="br" onclick="oper('=')">=</button></td>
+                            <td><button class="br" onclick="borrar()">C</button></td>
+                       </tr>
+                        <tr>
+                            <td><button class="bo" onclick="oper('+')">+</button></td> 
+                            <td><button class="bo" onclick="oper('-')">-</button></td>
+                       </tr>
+                       <tr>
+                            <td><button class="bo" onclick="oper('*')">*</button></td> 
+                            <td><button class="bo" onclick="oper('/')">/</button></td>
+                       </tr>
+                   </TABLE>
+               </td>
+           </tr>
+       </TABLE>
+       <table id="tres">
+            <tr>
+                <th COLSPAN="3">HISTORIAL RESULTADOS</th>
+           </tr>
+           <tr>
+                <td>ID</td><td>Operacion</td><td>resultado</td>
+           </tr>
+       </table>
+       <script src="calc.js"></script>
+   </BODY>
+</HTML>

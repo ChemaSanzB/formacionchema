@@ -1,0 +1,47 @@
+#t1{
+    border:1px solid black;
+    border-radius: 6px;
+    background-color:#96c9da;
+    max-width:400px;
+    width: 35%;
+    height: 30%;
+}
+#to, #tn{
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#to tr, #tn tr{
+    width: 100%;
+    height: 25%;
+}
+#res{
+    text-align: right;
+    background-color: black;
+    color:red;
+    width: 75%;
+    height: 50%;
+    font-size: 17px;
+}
+.bn{
+    background-color: #4384fe;
+    color: white;
+    width: 70%;
+    height: 85%;
+    font-size: 20px;
+}
+.bo{
+    background-color:#3b55e5;
+    color: white;
+    width: 70%;
+    height: 85%;
+    font-size: 20px;
+}
+.br{
+    background-color: red;
+    color: white;
+    width: 70%;
+    height: 85%;
+    font-size: 20px;
+}
